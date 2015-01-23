@@ -24,7 +24,7 @@ Place this StockAPI.py file in program directory.
 # Example 2.
     import StockAPI as stock
    
-    print Get_todays_high('TATAMOTOR")
+    print Get_todays_high('TATAMOTOR')
    
     Output:
     '590.75'
