@@ -22,12 +22,15 @@ Place this StockAPI.py file in program directory.
     'Get_previous_close': ['566.30']}
    
 # Example 2.
-    import StockAPI as stock
-   
-    print stock.Get_todays_high('TATAMOTOR')
+    from StockAPI import StockAPI
+
+    stock = StockAPI("TCS")
+    price = stock.get_quote()
+    print(price)
+
    
     Output:
-    '590.75'
+    '2497.30'
    
    
 
