@@ -9,9 +9,11 @@ Place this StockAPI.py file in program directory.
  
 # Example 1.
 
-    import StockAPI as stock
-   
-    print stock.Get_summary('TATAMOTOR')
+    from StockAPI import StockAPI
+
+    stock = StockAPI("TATAMOTOR")
+    summary = stock.get_summary()
+    print(summary)
    
     Output:
     {'Get_percent_change': 3.81,
