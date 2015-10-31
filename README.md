@@ -1,7 +1,7 @@
 # StockAPI
-This is API you can use for dowloading data related to Indian stocks.
+This is API you can use for fetching data related to Indian stocks.
 
-This script scraps data from rediff's money website, which hosts data related to India stocks.
+This script scraps data from one of the Indian financial website, which hosts data related to Indian stocks.
 
 To use this you must have Python 2.x.
 
